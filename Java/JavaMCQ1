@@ -1,0 +1,22 @@
+Assignment Answers:-
+
+1) Ans: compiler error
+  We must initilize the local variable at the time of declearation only.
+  
+ 2) Ans: Compiler error
+  As we know that the syntax of for loop is for(int i=0; condition; i++) but in given example it shows only 0 which reflect false codition. 
+  
+ 3) Ans: 8.800000095367432
+ 
+ 
+ 4) Ans:- 'A', 65
+ Because the char value is always represented in ' ' also default value of A is 65. 
+ 
+ 5)Ans :- double 
+ because the value is reersented in decimal form which is given by double.
+ 
+ 6)Ans:- String 
+   String is immutable datatype in which modification is not possible.
+
+7) Ans:-all of the above
+  all the values are char type so that it stores all the values.
