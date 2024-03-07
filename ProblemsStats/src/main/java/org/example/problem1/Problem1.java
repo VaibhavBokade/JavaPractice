@@ -26,8 +26,8 @@ public class Problem1 {
 
         System.out.println("Order Summary:");
         for (MenuItem item : order.getItems()) {
-            System.out.println(item.getName() + " - $" + item.getPrice());
+            System.out.println(item.getName() + " - Rs." + item.getPrice());
         }
-        System.out.println("Total: $" + order.calculateTotal());
+        System.out.println("Total: Rs." + order.calculateTotal());
     }
 }
