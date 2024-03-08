@@ -1,0 +1,11 @@
+package org.example.threads;
+
+public class YieldMethod extends Thread {
+
+    public void run() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Child Thread: " + i);
+            Thread.yield();
+        }
+    }
+}
