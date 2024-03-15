@@ -20,7 +20,6 @@ public class MaxOccurringCharacter {
                 maxCount = entry.getValue();
             }
         }
-
         System.out.println("Character with maximum occurrences: " + maxChar);
         System.out.println("Count: " + maxCount);
     }
